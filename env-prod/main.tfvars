@@ -43,7 +43,7 @@ docdb = {
 rds = {
   prod = {
     engine                  = "aurora-mysql"
-    engine_version          = "5.7.mysql_aurora.2.11.0"
+    engine_version          = "5.7.mysql_aurora.2.11.3"
     dbname                  = "dummy"
     skip_final_snapshot     = true
     backup_retention_period = 1
@@ -70,4 +70,6 @@ rabbitmq = {
     component = "rabbitmq"
   }
 }
+
+
 
