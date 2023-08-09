@@ -11,8 +11,7 @@ variable "rds" {}
 variable "elasticache" {}
 variable "rabbitmq" {}
 variable "allow_ssh_cidr" {}
-variable "app" {}
-variable "alb" {}
+
 variable "domain" {}
 variable "allow_monitor_cidr" {}
 variable "acm_cert_arn" {}
