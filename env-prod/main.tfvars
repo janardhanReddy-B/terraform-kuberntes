@@ -67,6 +67,7 @@ elasticache = {
 rabbitmq = {
   prod = {
     instance_type = "t3.small"
+    component = "rabbitmq"
   }
 }
 
